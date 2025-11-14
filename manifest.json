@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Apex",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Apex",
+    "default_icon": {
+      "128": "apex.png"
+    }
+  },
+  "icons": {
+    "128": "apex.png"
+  },
+  "permissions": ["tabs"],
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  }
+}
